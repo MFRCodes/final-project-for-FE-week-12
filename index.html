@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie's Wedding Guest Invitation List</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="container">
+    <div id="new-house" class="jumbotron">
+        <h3>Wedding Guest List</h3>
+        <input type="text" id="new-wedding-name" class="form-control"> <br>
+        <button id="create-new-wedding" class="btn btn-primary form-control">Create</button>
+    </div>
+
+    <div id="app"></div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
+<!-- On line 10, I used a container class with the body element to make the Bootstrap added to the app responsive to all parts of the app  -->
+<!-- Bootstrap is also added to the div via the id and class to make it responsive to all parts of the app. -->
+<!-- I used "h3" as the tag to write the title of my app.
+<!-  On lines 13 and 14, "form control" makes sure that the element that's placed inside fills up the container it's passed through. --> 
+<!-- The "btn btn-primary gives style to the button" -->
+<!-- On line 17,the div is where the wedding guests and seats will be rendered.  -->
+<!-- Line 29 allows jquery to run. -->
+<!-- Line 20 links the JavaScript page. -->
+<!-- Line 21 allows the JavaScript parts of Bootstrap to run.  -->
